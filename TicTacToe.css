@@ -1,0 +1,42 @@
+td {
+    border: 2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 0;
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+span {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+button {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    width: 150px;
+}
+
+button:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+
+td.valid:hover {
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+
+td.invalid:hover {
+    background-color: white;
+}

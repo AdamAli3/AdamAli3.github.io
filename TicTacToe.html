@@ -1,0 +1,48 @@
+<head>
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="TicTacToe.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="TicTacToe.js"></script>
+</head>
+
+<body>
+    <center>
+        <div>
+            <h1>Let's Play Tic Tac Toe!</h1>
+            <span id="playerTurn"></span>
+        </div>
+        <br/>
+        <table>
+            <tr>
+                <td class="valid" id="r1c1">
+                    </td>
+                <td class="valid" id="r1c2">
+                    </td>
+                <td class="valid" id="r1c3">
+                    </td>
+            </tr>
+            <tr>
+                <td class="valid" id="r2c1">
+                    </td>
+                <td class="valid" id="r2c2">
+                    </td>
+                <td class="valid" id="r2c3">
+                    </td>
+            </tr>
+            <tr>
+                <td class="valid" id="r3c1">
+                    </td>
+                <td class="valid" id="r3c2">
+                    </td>
+                <td class="valid" id="r3c3">
+                    </td>
+            </tr>
+        </table>
+        <br/>
+        <div>
+            <span id="turnCount"></span>
+            <h1 id="winner"></h1>
+            <button id="newGameBtn" type="button"></button>
+        </div>
+    </center>
+</body>
